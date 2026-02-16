@@ -3,11 +3,14 @@
 """
 Tablesmith
 
-A fun RPG random table generator for anything you like.
+An RPG random table generator for anything you like.
 
 Created on Sun Feb 15 18:17:59 2026
 
 @author: arjeneke
+
+version 0.1
+
 """
 
 from classes.class_tables import Tables
