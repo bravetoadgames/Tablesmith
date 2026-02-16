@@ -4,14 +4,15 @@ import random
 class IndividualMission:
     
     part_01 = [
-        "Bribe or negotiate with", "Bring message to location of", 
-        "Capture or arrest", "Conceal/smuggle", "Deliver/transport", 
-        "Discover identity of", "Distract, decoy, or deceive", 
-        "Entrap or sting", "Extort from", "Find missing", 
-        "Get help from", "Guard/protect", "Incriminate or frame", 
-        "Kidnap", "Kill/assassinate", "Rescue", 
+        "Bribe", "Bring message to location of", 
+        "Capture or arrest", "Conceal", "Deliver", 
+        "Discover identity of", "Distract", "Deceive", "Transport"
+        "Entrap", "Extort from", "Find missing", 
+        "Get help from", "Guard", "Incriminate", 
+        "Kidnap", "Kill", "Rescue", "Frame", "Decoy",
         "Sabotage efforts of", "Spy upon", "Steal item from",
-        "Waylay" 
+        "Waylay", "Negotiate with", "Sting" , "Smuggle", "Protect",
+        "Assassinate"
         ]
 
     part_02 = [

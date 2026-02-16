@@ -17,6 +17,22 @@ from classes.class_tables import Tables
 
 tables = Tables()
 
+print("Overview location:")
 print(tables.overview_location.getResult())
+print()
+
+print("Purpose of approach:")
 print(tables.purpose_approach.getResult())
+print()
+
+print("Individual mission:")
 print(tables.individual_mission.getResult())
+print()
+
+print("Item mission:")
+print(tables.item_mission.getResult())
+print()
+
+print("Location based mission:")
+print(tables.location_based_mission.getResult())
+print()
