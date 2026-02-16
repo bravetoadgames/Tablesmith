@@ -3,7 +3,7 @@ import random
 
 class OverviewLocation:
     
-    overview_location_01 = [
+    part_01 = [
         "Adamantine", "Aerial", "Airborne", "Amphibious", "Ancient", 
         "Arachnid", "Aromatic", "Astrological", "Asymmetrical", 
         "Azure", "Belowground", "Bizarre", "Black", 
@@ -48,7 +48,7 @@ class OverviewLocation:
         "Waterborne","Watery","Weird", "White", "Wooden" 
         ]
 
-    overview_location_02 = [
+    part_02 = [
         "Abbey of the", "Aerie of the", "Asylum of the", "Aviary of the", 
         "Barracks of the", "Bastion of the", "Bazaar of the", "Bluffs of the", 
         "Brewery of the", "Bridge of the", "Cairn of the", "Canyon of the", 
@@ -77,7 +77,7 @@ class OverviewLocation:
         "Stronghold of the","Tower of the", "Webs of the", "Zeppelin of the" 
         ]
     
-    overview_location_03 = [
+    part_03 = [
         "Ant", "Ape", "Armored","Army of the", "Artificial", "Baboon",
         "Bandit", "Bat","Bear", "Beetle","Bitter", "Blood", 
         "Bone","Brain", "Breeding", "Broken", "Bronze", "Burned", 
@@ -110,12 +110,56 @@ class OverviewLocation:
         "Winged", "Worm","Wounded", "Wraith","Zombie" 
         ]
     
+    part_04 = [
+        "Abbot", "Actor", "Alchemist", "Altar", "Apparition", 
+        "Apprentice", "Artifact", "Assassin", "Automaton", "Basilisk", 
+        "Bats","Beast", "Behemoth", "Berserkers","Binder", "Bishop", 
+        "Breeder", "Brood", "Brotherhood", "Burrower", "Caller", 
+        "Cannibal", "Captive", "Centaur", "Ceremony", "Chalice", 
+        "Changeling", "Chanter", "Chieftain of Goblins", "Chimera", "Circlet", 
+        "Clan", "Cleric", "Cockatrice", "Collector", "Colossus", 
+        "Combiner", "Congregation", "Coronet", "Crafter", "Crawler", 
+        "Creator", "Creature", "Crown", "Cult", "Cultists", 
+        "Cyclops", "Daughter", "Demigod", "Demon", "Device", "Displacer", 
+        "Djinni", "Doppelganger", "Dragon", "Dreamer", "Druid", 
+        "Efreet", "Egg", "Emissary", "Emperor", "Executioner", 
+        "Exile", "Experimenter", "Eye", "Eyeball", "Father", 
+        "Frog", "Fungus", "Gargoyles","Gatherer", "Genie", 
+        "Ghosts","Ghouls", "Giants","God", "Goddess", 
+        "Golem", "Grail", "Griffon", "Guardian", "Hag", 
+        "Harpies", "Head", "Horde", "Hornets","Horror", 
+        "Hounds","Hunter", "Hunters", "Hybrid", "Hydra", "Idol", 
+        "Infiltrator", "Insect", "Jailer", "Keeper", "Killer", 
+        "King", "Knight", "Larva", "Lich", "Lord", 
+        "Lycanthrope", "Mage", "Magician", "Maker", "Manticore", 
+        "Master", "Medusa", "Minotaurs","Monks", "Monster", 
+        "Mother", "Mummy", "Mushroom", "Naga", "Nomads", 
+        "Octopus", "Ogres","Oozes","People", "Pirates",
+        "Priest", "Priesthood", "Priests","Prince", "Princess", 
+        "Puddings","Puppet", "Puppet master","Rakshasa", "Rats",
+        "Reaver", "Resurrectionist", "Salamander", "Satyr", "Scholar", 
+        "Scorpion", "Seed", "Serpent", "Shaman", "Shaman of the Orcs",
+        "Shaper", "Simulacrum", "Sisterhood", "Skeletons", "Slimes",
+        "Slitherer", "Society", "Son", "Sorcerer", "Sorceress", 
+        "Spawn", "Sphinx", "Spiders","Spirits", "Star", "Statue", 
+        "Statues","Surgeon", "Titan", "Toad", "Tree", 
+        "Trees","Tribe","Troglodytes", "Trolls","Tyrant", 
+        "Walker", "Warlord", "Warlord of the Orcs", "Wasps","Weaver", 
+        "Whisperer", "Witch", "Wizard", "Wolves", "Worg",
+        "Worm", "Wyrm", "Wyvern", "Yeti", "Zombies" 
+        ]
+
+
+    
     def __init__(self):
         pass
 
+
+
     def getResult(self):
-        a = random.randint(0, len(self.overview_location_01))
-        b = random.randint(0, len(self.overview_location_02))
-        c = random.randint(0, len(self.overview_location_03))
-        return self.overview_location_01[a] + " " + self.overview_location_02[b] + " " + self.overview_location_03[c]
+        a = random.randint(0, len(self.part_01) - 1)
+        b = random.randint(0, len(self.part_02) - 1)
+        c = random.randint(0, len(self.part_03) - 1)
+        d = random.randint(0, len(self.part_04) - 1)
+        return self.part_01[a] + " " + self.part_02[b] + " " + self.part_03[c] + " " + self.part_04[d]
         

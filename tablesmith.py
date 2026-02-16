@@ -15,3 +15,5 @@ from classes.class_tables import Tables
 tables = Tables()
 
 print(tables.overview_location.getResult())
+print(tables.purpose_approach.getResult())
+print(tables.individual_mission.getResult())
