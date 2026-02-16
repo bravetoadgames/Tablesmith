@@ -10,7 +10,8 @@ Created on Sun Feb 15 18:17:59 2026
 @author: arjeneke
 """
 
-from classes.class_overview_location import OverviewLocation
+from classes.class_tables import Tables
 
-overview_location = OverviewLocation()
+tables = Tables()
 
+print(tables.overview_location.getResult())
