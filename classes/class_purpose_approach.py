@@ -27,25 +27,25 @@ class PurposeApproach:
         ]
 
     part_02 = [
-        "Altar","Barge", "Beacon", "Bowl", "Boxes", 
-        "Cages", "Cairn", "Camp", "Catalyst", "Caverns", 
-        "Cells", "Channel", "Chasm", "Chimney", "Circle", 
-        "Cocoons", "Compactor", "Compass", "Connector", "Coops", 
-        "Crown", "Dancer", "Device", "Disk", "Docks", "Dome", 
-        "Factory", "Farm", "Flowers", "Forge", "Fountain", "Frame", 
-        "Gallery", "Game", "Garden", "Globe", "Grounds", 
-        "Harbor", "Harvester", "Hatchery", "Hive", "Houses", 
-        "Incubator", "Jars", "Kennels", "Keys", "Kiln", 
-        "Laboratories", "Lantern", "Lens", "Machine", "Mandala", 
-        "Mirror", "Moat", "Nets", "Orb", "Organs", 
-        "Ovens", "Pendulum", "Pens", "Perches", "Pillars", 
-        "Pipes", "Pits", "Pools", "Portal", "Preserver", 
-        "Priests", "Prism", "Quarters", "Rafts", "Rods", "Rooms", 
-        "Rune", "Sanctum", "Separator", "Ship", "Sphere", "Spiral", 
-        "Spire", "Spouts", "Stage", "Statue", "Steps", "Swamp", 
-        "Theater", "Throne", "Token", "Tomb", "Tower", 
-        "Traps", "Trees", "Tubes", "Vats", "Vines", 
-        "Vortex", "Wards", "Webs", "Well", "Wheel" 
+        "altar","barge", "beacon", "bowl", "boxes", 
+        "cages", "cairn", "camp", "catalyst", "caverns", 
+        "cells", "channel", "chasm", "chimney", "circle", 
+        "cocoons", "compactor", "compass", "connector", "coops", 
+        "crown", "dancer", "device", "disk", "docks", "dome", 
+        "factory", "farm", "flowers", "forge", "fountain", "frame", 
+        "gallery", "game", "garden", "globe", "grounds", 
+        "harbor", "harvester", "hatchery", "hive", "houses", 
+        "incubator", "jars", "kennels", "keys", "kiln", 
+        "laboratories", "lantern", "lens", "machine", "mandala", 
+        "mirror", "moat", "nets", "orb", "organs", 
+        "ovens", "pendulum", "pens", "perches", "pillars", 
+        "pipes", "pits", "pools", "portal", "preserver", 
+        "priests", "prism", "quarters", "rafts", "rods", "rooms", 
+        "rune", "sanctum", "separator", "ship", "sphere", "spiral", 
+        "spire", "spouts", "stage", "statue", "steps", "swamp", 
+        "theater", "throne", "token", "tomb", "tower", 
+        "traps", "trees", "tubes", "vats", "vines", 
+        "vortex", "wards", "webs", "well", "wheel" 
         ]
     
     
